@@ -1,0 +1,378 @@
+/*
+Theme Name: Deadend Game Calls
+Theme URI: http://hypercoder.co
+Author: Azizul Haque
+Author URI: http://hypercoder.co
+Description: An Ultra Responsive Multi-Purpose Theme.
+Version: 8.1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+.headline-wrap .slide.slick-active .title {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.headline-wrap .slide.slick-active .button {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+/****************************************   woocommerce-page*/
+.page-title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 80px !important;
+}
+.all-product {
+    padding: 90px 0 70px;
+}
+ul.products li.product {
+    background: #ddd;
+    text-align: center;
+}
+h2.woocommerce-loop-product__title {
+    color: #000;
+    font-weight: bold;
+}
+.woocommerce ul.products li.product .button{
+    position: absolute;
+    text-align: center;
+    bottom: -15px;
+    left: 80px;
+}
+.woocommerce ul.products li.product .price{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.star-rating {
+    margin: 0 auto !important;
+}
+p.woocommerce-result-count {
+    display: none !important;
+}
+.woocommerce a.button{
+  background: #E24301;
+  color: #fff;
+}
+.woocommerce a.button:hover {
+    background-color: #B93701;
+    color: #fff;
+}
+span.woocommerce-Price-amount.amount {
+    font-size: 15px;
+    color: #E24301;
+}
+.input-text.qty.text {
+    height: 36px;
+}
+.woocommerce button.button.alt{
+  background: #E24301 !important;
+}
+.woocommerce button.button.alt:hover{
+  background: #A53101 !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+  background: #A53101;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active{
+  color: #000;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{
+    color: #fff;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover{
+    color: #000;
+}
+li.woocommerce-mini-cart-item.mini_cart_item a:hover {
+    color: #000;
+}
+.woocommerce span.onsale{
+  background: #E24301 !important;
+}
+.woocommerce .woocommerce-ordering select{
+  padding: 10px;
+}
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+  height: 35px;
+}
+.woocommerce input.button {
+  background: #E24301;
+  color: #fff;
+}
+.woocommerce input.button:hover{
+  background: #B93701 !important;
+  color: #fff;
+}
+.woocommerce a.button.alt {
+  background: #E24301;
+}
+.woocommerce a.button.alt:hover {
+  background: #B93701;
+}
+.woocommerce-cart .cart-collaterals .cross-sells ul.products li.product .button {
+    left: 50px;
+}
+.summary.entry-summary h1 {
+    font-size: 48px !important;
+}
+.woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+/********************  ***************************  woocommerce-page*/
+
+.dropdown-menu {
+	padding: 0;
+}
+ul.dropdown-menu li a {
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+    font-weight: normal !important;
+}
+
+.justify {
+    margin-top: 30px;
+    text-align: center;
+}
+.justify a {
+    width: 100%;
+    height: 70px;
+    display: block;
+    margin: 0 0 30px;
+}
+
+.page-wrapper {
+    padding-bottom: 50px;
+}
+
+.header_shopping_cart_content {
+  padding: 10px;
+}
+.header_shopping_cart_content ul li {
+  padding: 10px 0;
+  position: relative;
+  border-bottom: 1px solid #EEEEEE;
+}
+.header_shopping_cart_content ul li a {
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 20px;
+  color: #272727;
+}
+.header_shopping_cart_content ul li a img {
+  width: 55px !important;
+  height: auto !important;
+  float: left !important;
+    margin-right: 15px !important;
+}
+.header_shopping_cart_content ul li .remove {
+  top: 10px;
+  right: -5px;
+  width: 20px;
+  height: 30px;
+  font-size: 22px;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  margin: 0 !important;
+  color: #c93b09 !important;
+  display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+}
+.header_shopping_cart_content ul li .remove:hover {
+  color: #ffffff !important;
+  background: #c93b09 !important;
+}
+.header_shopping_cart_content ul li span.quantity {
+  font-size: 12px;
+  margin-right: 20px;
+  display: block;
+}
+.header_shopping_cart_content .total {
+  margin: 20px 20px 20px 5px;
+      font-size: 16px;
+    font-weight: bold;
+}
+.header_shopping_cart_content .total strong {
+    float: left;
+    margin-right: 10px;
+}
+.header_shopping_cart_content .buttons a {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.header_shopping_cart_content .buttons a.button.wc-forward, a .checkout.wc-forward {
+    background: #E24301;
+    color: #fff;
+}
+.header_shopping_cart_content .buttons a.button.wc-forward:hover{
+  background: #902B01;
+  color: #fff;
+  text-decoration: none;
+}
+.header_shopping_cart_content .buttons .checkout.wc-forward {
+    float: right;
+}
+a .checkout.wc-forward {
+   background: #902B01;
+  color: #fff;
+  text-decoration: none;
+}
+.header_shopping_cart_content .buttons .checkout.wc-forward:hover{
+    background: #E24301 !important;
+    color: #fff;
+}
+li.woocommerce-mini-cart-item.mini_cart_item a:hover {
+    background: transparent;
+    text-decoration: none;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .header_shopping_cart_content {
+    left: inherit;
+    right: -100%;
+  }
+}
+@media (max-width: 776px) {
+  .header_shopping_cart_content {
+    display: none;
+  }
+}
+
+
+li.woocommerce-MyAccount-navigation-link {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+li.woocommerce-MyAccount-navigation-link.is-active a {
+    color: #000;
+}
+
+.tablet-hide {
+  text-align: right;
+}
+
+form.woocommerce-product-search input {
+    outline: 0;
+    border: 0;
+    padding: 4px 10px;
+}
+
+
+form.woocommerce-product-search input[type=submit] {
+  color: #FFF;
+  background: #E24301;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+body .header-wrap .navbar-main .navbar-nav li a:hover {
+    color: #E24301!important;
+}
+.header-wrap .navbar-main .navbar-nav li ul.dropdown-menu li a:hover{
+  color: #fff !important;
+}
+.woocommerce input.button.alt{
+  background: #E24301 !important;
+}
+.woocommerce input.button.alt:hover{
+  background: #A53101 !important;
+}
+/****************************************        footer*/
+
+
+.bn-social li {
+    list-style: none;
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: #E24301;
+    margin: 5px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bn-social li i{
+  color: #fff;
+}
+.bn-social li:hover{
+  background: #A53101;
+}
+.quick-links div a {
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.related.products h2 {
+    margin-bottom: 30px;
+}
+
+
+/*contact-pages*/
+.contact-bg {
+    background: #fff;
+    padding-bottom: 20px;
+}
+.gform_heading {
+    text-align: center;
+    background: #F5F5F5;
+    padding: 1px;
+}
+body .gform_wrapper ul li.gfield{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.gform_wrapper .top_label .gfield_label{
+      width: 100px;
+      margin-top: 8px;
+}
+body .gform_wrapper .top_label div.ginput_container{
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.gform_wrapper.gf_browser_chrome select {
+    padding: 7px 0 7px 3px !important;
+}
+.gform_wrapper.gf_browser_chrome select, .gform_wrapper input, textarea{
+    border: 2px solid #ddd !important;
+    border-radius: 4px !important;
+    outline: 0;
+    padding: 5px 10px !important;
+}
+.gform_body input, select, textarea {
+    width: 100% !important;
+}
+.gform_wrapper textarea.medium{
+  height: 100px !important;
+}
+input#gform_submit_button_1 {
+    background: #E24301;
+    color: #fff;
+    border: 0 !important;
+    padding: 10px 30px !important;
+    font-weight: bold;
+}
+input#gform_submit_button_1:hover{
+  background: #B93701;
+}
+.gform_body, .gform_footer {
+    padding: 0 30px !important;
+}
+.gform_wrapper .gform_footer {
+    margin-left: 100px !important;
+}
