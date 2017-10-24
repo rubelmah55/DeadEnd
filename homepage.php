@@ -13,10 +13,10 @@ Template Name: Homepage
                foreach ($slider_item as $slider ):
             ?>
             <div class="slide tine-teaser" style="background-image: url(<?php echo $slider['slider_img']; ?>">
-               <p class="slide-copy title"><?php echo $slider['slider_title']; ?>
-               <a class="slide-copy button" href="<?php echo $slider['slider_button_url']; ?>"><?php echo $slider['slider_button_text']; ?></a>
-               </p>
-               
+               <div class="slider_content">
+                  <p class="slide-copy title"><?php echo $slider['slider_title']; ?></p>
+                  <a class="slide-copy button" href="<?php echo $slider['slider_button_url']; ?>"><?php echo $slider['slider_button_text']; ?></a>
+               </div>
             </div>
              <?php endforeach; ?>
          </div>

@@ -14114,18 +14114,16 @@ body .headline-wrap .slide.text-right p {
 }
 body .headline-wrap .slide p.slide-copy {
     vertical-align: bottom;
-    padding: 200px 30px 0;
-    max-width: 750px;
     color: #ffffff;
     font-size: 90px;
     line-height: 90px;
+    max-width: 750px;
     font-family: 'DharmaSlabE-ExBold', Helvetica, Sans-serif;
     text-transform: uppercase;
     text-shadow: 0px 0px 57px rgba(255, 78, 0, 0.75);
-    margin-left: 100px;
     font-weight: bold;
 }
-body .headline-wrap .slide p.slide-copy a {
+body .headline-wrap .slide .slider_content a {
     background-color: #e24301;
     display: inline-block;
     color: #efe1cc;
@@ -14138,7 +14136,7 @@ body .headline-wrap .slide p.slide-copy a {
     padding: 0 25px;
     text-shadow: none;
 }
-body .headline-wrap .slide p.slide-copy a:hover {
+body .headline-wrap .slide .slider_content a:hover {
     color: #ffffff;
     text-decoration: none;
 }

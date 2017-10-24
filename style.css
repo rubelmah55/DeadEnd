@@ -9,15 +9,14 @@ License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-
+.slider_content{
+    margin: 0 auto;
+    padding: 200px 30px 0;
+    max-width: 1050px;
+}
 .headline-wrap .slide.slick-active .title {
   animation-name: fadeInDown;
   animation-duration: 1s;
-  animation-fill-mode: both;
-}
-.headline-wrap .slide.slick-active .button {
-  animation-name: fadeIn;
-  animation-duration: 1.5s;
   animation-fill-mode: both;
 }
 
@@ -43,7 +42,7 @@ h2.woocommerce-loop-product__title {
     position: absolute;
     text-align: center;
     bottom: -15px;
-    left: 80px;
+    left: 30% !important;
 }
 .woocommerce ul.products li.product .price{
   padding-bottom: 30px;
@@ -123,6 +122,12 @@ li.woocommerce-mini-cart-item.mini_cart_item a:hover {
 .woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells h2 {
     font-size: 24px;
     font-weight: bold;
+}
+.cross-sells a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: normal;
+    left: 28% !important;
 }
 /********************  ***************************  woocommerce-page*/
 
