@@ -171,6 +171,11 @@ li.woocommerce-mini-cart-item.mini_cart_item a:hover {
   font-size: 14px;
   padding: 0 25px;
 }
+.woocommerce div.product form.cart .variations select{
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 2px solid #E24301;
+}
 /********************  ***************************  woocommerce-page*/
 
 .dropdown-menu {
