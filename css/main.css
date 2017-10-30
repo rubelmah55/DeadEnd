@@ -14052,7 +14052,6 @@ body .join-newsletter {
     margin-bottom: 10px;
 }
 body .subscribe-button {
-    background-color: #e24301;
     border: none;
     display: block;
     color: #efe1cc;
@@ -14124,7 +14123,6 @@ body .headline-wrap .slide p.slide-copy {
     font-weight: bold;
 }
 body .headline-wrap .slide .slider_content a {
-    background-color: #e24301;
     display: inline-block;
     color: #efe1cc;
     font-size: 23px;
@@ -14372,7 +14370,6 @@ body .cta h2 {
     letter-spacing: -1px;
 }
 body .cta a {
-    background-color: #e24301;
     display: inline-block;
     color: #efe1cc;
     font-size: 23px;

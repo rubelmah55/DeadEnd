@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Deadend Game Calls
 Theme URI: http://hypercoder.co
@@ -55,16 +56,13 @@ p.woocommerce-result-count {
     display: none !important;
 }
 .woocommerce a.button{
-  background: #E24301;
   color: #fff;
 }
 .woocommerce a.button:hover {
-    background-color: #B93701;
     color: #fff;
 }
 span.woocommerce-Price-amount.amount {
     font-size: 15px;
-    color: #E24301;
 }
 .input-text.qty.text {
     height: 36px;
@@ -240,7 +238,6 @@ ul.dropdown-menu li a {
 }
 .header_shopping_cart_content ul li .remove:hover {
   color: #ffffff !important;
-  background: #c93b09 !important;
 }
 .header_shopping_cart_content ul li span.quantity {
   font-size: 12px;
@@ -280,7 +277,6 @@ a .checkout.wc-forward {
   text-decoration: none;
 }
 .header_shopping_cart_content .buttons .checkout.wc-forward:hover{
-    background: #E24301 !important;
     color: #fff;
 }
 li.woocommerce-mini-cart-item.mini_cart_item a:hover {
@@ -322,7 +318,6 @@ form.woocommerce-product-search input {
 
 form.woocommerce-product-search input[type=submit] {
   color: #FFF;
-  background: #E24301;
 }
 
 
@@ -347,7 +342,6 @@ body .header-wrap .navbar-main .navbar-nav li a:hover {
     float: right;
     height: 40px;
     width: 40px;
-    background: #E24301;
     margin: 5px;
     border-radius: 500px;
     display: flex;
@@ -413,7 +407,6 @@ body .gform_wrapper .top_label div.ginput_container{
   height: 100px !important;
 }
 input#gform_submit_button_1 {
-    background: #E24301;
     color: #fff;
     border: 0 !important;
     padding: 10px 30px !important;

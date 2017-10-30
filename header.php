@@ -23,6 +23,21 @@
 		optionalZipCountries = ["MG"];
 		//]]>
 	 </script>
+	<style>
+		body .headline-wrap .slide .slider_content a, body .cta a, form.woocommerce-product-search input[type=submit], body .subscribe-button, .bn-social li, .woocommerce span.onsale, .woocommerce a.button, input#gform_submit_button_1, .header_shopping_cart_content .buttons .checkout.wc-forward, ul.dropdown-menu li a:hover{
+			background: <?php the_field('background', 'options') ?> !important;
+		}
+		body .headline-wrap .slide .slider_content a:hover, body .cta a:hover, form.woocommerce-product-search input[type=submit]:hover, body .subscribe-button:hover, .bn-social li:hover, .woocommerce span.onsale:hover, .woocommerce a.button:hover, input#gform_submit_button_1:hover, .header_shopping_cart_content .buttons .checkout.wc-forward:hover,.header_shopping_cart_content ul li .remove:hover{
+			background: <?php the_field('background_hover_color', 'options') ?> !important;
+		}
+		span.woocommerce-Price-amount.amount, .navbar-default .navbar-nav>.active>a, body .header-wrap .navbar-main .navbar-nav li a:hover{
+			color: #E24301 !important;
+		}
+
+	</style>
+
+
+
 	 <?php wp_head(); ?>
   </head>
   <body <?php body_class('cms-index-index cms-home'); ?>>
