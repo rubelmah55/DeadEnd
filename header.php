@@ -24,14 +24,17 @@
 		//]]>
 	 </script>
 	<style>
-		body .headline-wrap .slide .slider_content a, body .cta a, form.woocommerce-product-search input[type=submit], body .subscribe-button, .bn-social li, .woocommerce span.onsale, .woocommerce a.button, input#gform_submit_button_1, .header_shopping_cart_content .buttons .checkout.wc-forward, ul.dropdown-menu li a:hover{
+		body .headline-wrap .slide .slider_content a, body .cta a, form.woocommerce-product-search input[type=submit], body .subscribe-button, .bn-social li, .woocommerce span.onsale, .woocommerce a.button, input#gform_submit_button_1, .header_shopping_cart_content .buttons .checkout.wc-forward, ul.dropdown-menu li a:hover, .woocommerce input.button{
 			background: <?php the_field('background', 'options') ?> !important;
 		}
-		body .headline-wrap .slide .slider_content a:hover, body .cta a:hover, form.woocommerce-product-search input[type=submit]:hover, body .subscribe-button:hover, .bn-social li:hover, .woocommerce span.onsale:hover, .woocommerce a.button:hover, input#gform_submit_button_1:hover, .header_shopping_cart_content .buttons .checkout.wc-forward:hover,.header_shopping_cart_content ul li .remove:hover{
+		.input-text{
+			border: 2px solid <?php the_field('background', 'options') ?>;
+		}
+		body .headline-wrap .slide .slider_content a:hover, body .cta a:hover, form.woocommerce-product-search input[type=submit]:hover, body .subscribe-button:hover, .bn-social li:hover, .woocommerce span.onsale:hover, .woocommerce a.button:hover, input#gform_submit_button_1:hover, .header_shopping_cart_content .buttons .checkout.wc-forward:hover,.header_shopping_cart_content ul li .remove:hover, .woocommerce input.button:hover{
 			background: <?php the_field('background_hover_color', 'options') ?> !important;
 		}
-		span.woocommerce-Price-amount.amount, .navbar-default .navbar-nav>.active>a, body .header-wrap .navbar-main .navbar-nav li a:hover{
-			color: #E24301 !important;
+		.navbar-default .navbar-nav>.active>a, body .header-wrap .navbar-main .navbar-nav li a:hover, span.woocommerce-Price-amount.amount, a, a:active, a:focus, a:hover{
+			color: <?php the_field('text_color', 'options') ?>;
 		}
 
 	</style>

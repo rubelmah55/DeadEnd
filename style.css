@@ -98,7 +98,6 @@ li.woocommerce-mini-cart-item.mini_cart_item a:hover {
   height: 35px;
 }
 .woocommerce input.button {
-  background: #E24301;
   color: #fff;
 }
 .woocommerce input.button:hover{
@@ -280,7 +279,7 @@ a .checkout.wc-forward {
     color: #fff;
 }
 li.woocommerce-mini-cart-item.mini_cart_item a:hover {
-    background: transparent;
+    background: transparent !important;
     text-decoration: none;
 }
 @media (min-width: 769px) and (max-width: 991px) {
@@ -318,12 +317,6 @@ form.woocommerce-product-search input {
 
 form.woocommerce-product-search input[type=submit] {
   color: #FFF;
-}
-
-
-.navbar-default .navbar-nav>.active>a,
-body .header-wrap .navbar-main .navbar-nav li a:hover {
-    color: #E24301!important;
 }
 .header-wrap .navbar-main .navbar-nav li ul.dropdown-menu li a:hover{
   color: #fff !important;

@@ -13057,12 +13057,6 @@ aside[role=complementary] {
 .catalog-product-view .breadcrumb a {
     color: #fff
 }
-a,
-a:active,
-a:focus,
-a:hover {
-    color: #971804
-}
 .buttons-set {
     padding-bottom: 10px
 }
@@ -13363,7 +13357,6 @@ table {
 .product-options dd select,
 .product-options dd textarea {
     border-radius: 3px;
-    border: 2px solid #E24301;
 }
 .dropdown-cart {
     left: auto!important;
@@ -13943,9 +13936,6 @@ body .header-wrap .navbar-main li a {
     letter-spacing: 0;
     padding: 18px 13px;
     text-transform: uppercase;
-}
-body .header-wrap .navbar-main .navbar-nav li a:hover {
-    color: #fff !important;
 }
 ul.dropdown-menu li a:hover {
     background-color: #e24301;
