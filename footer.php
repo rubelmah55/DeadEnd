@@ -97,7 +97,7 @@
                     <div class="row">
                        <div class="justify">
                         <?php $brands = get_field('brands', 'options'); if ($brands): foreach ($brands as $brand) : ?>
-                          <div class="col-md-3 col-sm-4 col-xs-6">
+                          <div class="col-md-3 col-sm-4 col-xs-12">
                              <a target="_blank" href="<?php echo $brand['url'] ?>"><img src="<?php echo $brand['logo']['url']; ?>" alt="<?php echo $brand['logo']['alt']; ?>" class="img-loaded img-resposive"></a>
                           </div>
                           <?php endforeach; endif; ?>
